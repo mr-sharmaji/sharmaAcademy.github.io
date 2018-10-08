@@ -1,0 +1,55 @@
+#intro {
+  background: url("../img/cover.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #3949ab !important;
+  background: black;
+  background: black;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: black;
+  background: black;
+}
+.navbar-default {
+  background-color: #4896aa;
+  border-color: #346f7e;
+} 
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3949ab !important;
+  }
+}
+
+#intro .h6 {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+@media (max-width: 450px) {
+  .margins {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+#pricing .lead {
+  opacity: 0.7;
+}
+
+#pricing .card-image-web {
+  background: url("../img/web.jpg") no-repeat center center;
+}
+#pricing .card-image-app {
+  background: url("../img/app.jpg") no-repeat center center;
+}
+#pricing .card-image-ethical{
+  background: url("../img/ethical.jpg") no-repeat center center;
+}
+
+#pricing ul li {
+  font-size: 1.1em;
+}
